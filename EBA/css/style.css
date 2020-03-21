@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+}
+.flex-container{
+    display: flex;
+}
+.flex-container > div{
+    background-color: gray;
+    margin: 20px;
+    padding: 50px;
+    font-size: 30px;
+
+}
+.card .card-body{
+    height: 300px;
+}
+.card .card-footer{
+    background: green;
+}
+footer{
+    background-color: green;
+}
+.navbar-toggler-icon{
+    color: white;
+}
+@media only screen and (max-width: 720px ) {
+    .flex-container{
+        display: block;
+    }
+    .flex-container > div{
+        width: 200px;
+        .margin: 10px auto 10px auto;
+    }
+
+}
